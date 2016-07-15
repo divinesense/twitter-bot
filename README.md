@@ -14,6 +14,7 @@ STEPS:
 
 4. This script downloades only the 7 most current tweets but it can be easily modified to download any number of tweets.
 5. It can be modified to monitor any twitter account as well.
+6. This script is custom made for TechCrunch. Every TechCrunch tweet has a link to their article on their website. This script also      downloades the article from their website and stores it in the cuirrent working directory.
 
 Additional info:
 
