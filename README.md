@@ -3,8 +3,11 @@
 3. To run the script, download twitech.py 
 STEPS:
     a) Open terminal.
+
     b) type in "python twitech.py <file>" without quotes
+    
     c) Here <file> is a text file which will store the tweets from the account.
+    
     d) Make sure <file> is present in current working directory ie. in same directory as script "twitech.py"
 
 4. This script downloades only the 7 most current tweets but it can be easily modified to download any number of tweets.
