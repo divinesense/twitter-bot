@@ -9,7 +9,7 @@ ACCESS_SECRET=keys.keys["ACCESS_SECRET"]
 list=["a.html","b.html","c.html","d.html","e.html","f.html","g.html"]
 auth=tweepy.OAuthHandler(CONSUMER_KEY,CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY,ACCESS_SECRET)
-#put in your CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET 
+#put in your CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET in the above two lines
 api=tweepy.API(auth)
 outputfile=open(filename,'a+')
 tweets=api.user_timeline("TechCrunch")
