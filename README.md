@@ -1,13 +1,14 @@
 1. This is a python code which makes use of the tweepy library to keep track of tweets from TechCrunch's twitter account.
-2. To run the script, download twitech.py 
+2. Tweepy  :   It’s an easy to use Python library to access the twitter API 
+3. To run the script, download twitech.py 
 STEPS:
     a) Open terminal.
     b) type in "python twitech.py <file>" without quotes
     c) Here <file> is a text file which will store the tweets from the account.
     d) Make sure <file> is present in current working directory ie. in same directory as script "twitech.py"
 
-3. This script downloades only the 7 most current tweets but it can be easily modified to download any number of tweets.
-4. It can be modified to monitor any twitter account as well.
+4. This script downloades only the 7 most current tweets but it can be easily modified to download any number of tweets.
+5. It can be modified to monitor any twitter account as well.
 
 Additional info:
 TechCrunch website link  :   https://techcrunch.com/
